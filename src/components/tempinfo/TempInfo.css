@@ -1,0 +1,36 @@
+.temp-container{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+.temp-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-info img {
+  width: 100px;
+}
+
+.temperature{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.description{
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.temp-details{
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,27 @@
+.temp-container{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.temp-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.context-item {
+  background-color: rgb(255, 247, 247);
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.context-item p {
+  font-size: 14px;
+}
+
+.temp-text {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.app {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  border-radius: 12px 0 0 12px;
+  border: none;
+  outline: none;
+  width: 60%;
+  max-width: 300px;
+  margin-top: 30px;
+}
+
+button {
+  background: #26cc7e;
+  padding: 10px;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+  transition: 0.6s;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1b975d;
+}

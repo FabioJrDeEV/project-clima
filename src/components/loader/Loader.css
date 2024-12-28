@@ -1,0 +1,20 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Alinha o loader verticalmente no centro da tela */
+}
+
+.spin {
+  width: 50px;
+  height: 50px;
+  border: 8px solid lightgray;
+  border-right: 8px solid rgb(21, 150, 209);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
